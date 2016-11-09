@@ -29,16 +29,23 @@ return redworks;
 };
 
 //greenIntensity
+Color.greenIntensity = function(rgb){
 let greenworks = rgb[1]/255*100
 Math.round();
 return greenworks;
+};
 
 //blueIntensity
+Color.blueIntensity = function(rgb){
 let blueworks = rgb[2]/255*100
 Math.round();
 return blueworks;
-
+};
 //brightness
-
+Color.brightness = function (rgb){
+  var bright = b;
+  b = (rgb[0]+ rgb[1] + rgb[2])/6;
+  return bright;
+}
 
 //complement
